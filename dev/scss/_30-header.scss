@@ -1,0 +1,35 @@
+
+
+// mobile
+// ===============================================
+header
+{   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5px;
+
+    a
+    {   text-decoration: none;
+    }
+
+    .header-sig img
+    {   width: 45%;
+        margin-top: 20px;
+    }
+
+} // END MOBILE
+
+
+
+
+@include phablet{
+// ====================================== 400+ ====
+
+    .header-sig img
+    {   width: 100%;
+        max-width: 400px;
+    }
+
+
+} // END PHABLET

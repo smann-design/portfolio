@@ -1,0 +1,118 @@
+
+
+// mobile
+// ===============================================
+
+// FOLIO LINKS
+.flexrow //changes to display: flex; with phablet query
+{   display: block;
+    width: 100%;
+    margin: auto;
+}
+
+
+// HEADLINES
+.proj-sectionhead
+{   width: 70%;
+    margin: 60px auto 60px;
+    border-bottom: 1px solid $dkgray;
+}
+
+// TEXT
+.proj-context-text
+{   width: 85%;
+    margin: auto;
+    padding: 0 0 0 15px;
+}
+.proj-context-text p
+{   text-align: left;
+}
+
+
+
+// IMAGE WIDTH OPTIONS
+.proj-element-20width
+{   width: 20%;
+    margin: 50px auto 100px;
+}
+.proj-element-30width
+{   width: 30%;
+    margin: 50px auto 100px;
+}
+.proj-element-45width
+{   width: 45%;
+    margin: 50px auto 100px;
+}
+.proj-element-60width
+{   width: 60%;
+    margin: 50px auto 100px;
+}
+.proj-element-80width
+{   width: 80%;
+    margin: 50px auto 100px;
+}
+.proj-element-100width
+{   width: 100%;
+    margin: 50px auto 100px;
+}
+
+
+
+// COLUMN WIDTH OPTIONS (MOBILE)
+// .col-100, .col-50, .col-33
+// {   margin: 30px auto;
+//     width: 100%
+// }
+// .col-50
+// {   width: 47%;
+// }
+ // END MOBILE
+
+
+
+@include phablet{
+// ====================================== 400+ ====
+
+    .flexrow
+    {   width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .folio-link
+    {   display: block;
+        width: 100%;
+    }
+
+} // END PHABLET
+
+
+
+
+@include tablet{
+// ====================================== 640+ ====
+    // HEADLINES
+    .proj-sectionhead
+    {   width: 55%;
+    }
+    // TEXT
+    .proj-context-text
+    {   width: 70%;
+    }
+
+} // END TABLET
+
+
+
+
+@include laptop{
+// ====================================== 960+ ====
+    // HEADLINES
+    .proj-sectionhead
+    {   width: 35%;
+    }
+    // TEXT
+    .proj-context-text
+    {   width: 50%;
+    }
+
+} // END LAPTOP

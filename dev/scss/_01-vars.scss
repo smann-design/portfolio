@@ -1,0 +1,41 @@
+
+
+//Colors //////////////////////////////////////
+$white:             #fff;
+$ltsilver:          #eee;
+$silver:            #ddd;
+$gray:              #aaa;
+$dkgray:            #333;
+$black:             #111;
+
+
+//Type //////////////////////////////////////
+$header-font: ff-good-headline-web-pro-con, sans-serif;
+$header-size: 20px;
+
+$text-font: baskerville-urw, serif;
+$text-size: 16px;
+
+$line-height: 1.5em;
+
+
+//Queries //////////////////////////////////////
+$phablet: "screen and (min-width: 440px)";
+$tablet: "screen and (min-width: 640px)";
+$laptop: "screen and (min-width: 960px)";
+$desktop: "screen and (min-width: 1100px)";
+
+
+//Mixins //////////////////////////////////////
+@mixin phablet{
+    @media #{$phablet}{ @content; }
+    }
+@mixin tablet{
+    @media #{$tablet}{ @content; }
+    }
+@mixin laptop{
+    @media #{$laptop}{ @content; }
+    }
+@mixin desktop{
+    @media #{$desktop}{ @content; }
+    }

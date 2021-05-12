@@ -1,0 +1,64 @@
+
+
+// mobile
+// ===============================================
+
+header.nav-header
+{   width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #111;
+    padding: 15px 0;
+
+    .nav-header-sig img
+    {   display: block;
+        width: 110px;
+        margin: 0 auto 15px;
+    }
+
+    nav
+    {   display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        background-color: #111;
+    }
+
+    nav ul
+    {   margin: 0 60px;
+    }
+
+    nav ul li
+    {   display: block;
+        padding: 0 30px;
+        margin: 0;
+    }
+
+    a
+    {   color: #f5f3ee;
+        font-family: $header-font;
+        letter-spacing: .15em;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+
+
+ // END MOBILE
+
+
+    @include phablet{
+// ====================================== 400+ ====
+
+        nav ul
+        {   margin: 0;
+        }
+
+        nav ul li
+        {   display: inline-block;
+        }
+
+    } // END PHABLET
+
+
+} // END NAV-HEADER

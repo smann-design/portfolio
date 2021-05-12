@@ -1,0 +1,41 @@
+
+
+
+// mobile
+// ===============================================
+
+.vemr-logo
+{   width: 80%;
+    margin: 0 auto 40px;
+}
+
+
+.vemr-logoconcept
+{   width: 75%;
+    margin: auto;
+}
+
+
+.vemr-oldlogo
+{   width: 50%;
+    margin: auto;
+}
+
+.vemr-oldlogo img
+{   margin: 0 auto 70px;
+}
+
+// END MOBILE
+
+
+
+@include tablet{
+// ====================================== 640+ ====
+
+    .vemr-oldlogo
+    {   width: 30%;
+        margin: auto;
+    }
+
+
+}// END TABLET

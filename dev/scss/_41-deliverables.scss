@@ -1,0 +1,46 @@
+
+
+// mobile
+// ===============================================
+
+.project-deliverables
+{   padding: 90px 30px;
+    margin: 50px auto 120px;
+    h2{margin: 10px 0;}
+    h4{margin: 20px 0;}
+    background-color: #333;
+}
+
+.project-deliverables ul
+{   text-align: center;
+    margin: auto;
+}
+
+.project-deliverables li
+{   color: #fff;
+    list-style-type: none;
+    margin: auto;
+}
+
+.project-deliverables h1, .project-deliverables h2, .project-deliverables h3, .project-deliverables h4, .project-deliverables p, .project-deliverables a,
+{   color: #f5f3ee;
+    letter-spacing: .05em;
+}
+
+.project-deliverables-header h2
+{   font-size: $header-size * 1.4;
+}
+
+.project-deliverables li h4
+{   letter-spacing: .09em;
+}
+
+
+
+// GITHUB LINK
+
+.github-logo img
+{   width: 90px;
+}
+
+ // END MOBILE

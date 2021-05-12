@@ -1,0 +1,99 @@
+
+
+// mobile
+// ===============================================
+
+html
+{   background-color: #222;
+}
+
+body
+{   background-color: #f5f3ee;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+
+    main
+    {   width: 100%;
+        margin: auto;
+        margin-top: 0;
+        padding-bottom: 0px;
+    }
+
+    h1, h2, h3, h4, h5
+    {   font-family: $header-font;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: .03em;
+        color: $dkgray;
+        margin-top: 0;
+    }
+
+    h1
+    {   font-size: $header-size * 1.6;
+        margin-bottom: 0;
+    }
+
+
+    h2
+    {   font-size: $header-size * 1.2;
+    }
+
+    h3
+    {   font-size: $header-size * 1;
+    }
+
+    h4
+    {   font-size: $header-size * .8;
+        letter-spacing: .05em;
+    }
+
+    p, ul, li
+    {   font-family: $text-font;
+        font-size: $text-size;
+        font-weight: 100;
+        color: $dkgray;
+        line-height: $line-height;
+        margin-bottom: 10px;
+    }
+
+    ul, li
+    {
+        list-style-type: disc;
+        list-style-position: outside;
+        margin-left: 15px;
+    }
+
+    a
+    {   text-decoration: none;
+        color: $dkgray;
+    }
+
+    img
+    {   display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    // //GRAY BACKGROUND SECTIONS
+    // .dkgray
+    // {   background-color: $dkgray;
+    // }
+
+
+
+
+
+    @include phablet{
+// ====================================== 400+ ====
+        header
+        {
+            h1
+            {   font-size: $header-size * 2;
+            }
+        }
+
+    } // END PHABLET
+
+
+} // END BODY

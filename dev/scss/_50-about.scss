@@ -1,0 +1,78 @@
+
+// mobile
+// ===============================================
+
+.about-wrapper
+{   padding: 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.my-headshot img
+{   width: 65%;
+    margin: auto;
+}
+
+.my-bio-text
+{   padding: 25px 15px 0 30px}
+
+.my-bio-text p
+{   text-align: left;
+}
+
+// END MOBILE
+
+
+
+
+@include phablet{
+// ====================================== 400+ ====
+
+    .my-headshot img
+    {   width: 60%;
+        margin: auto;
+    }
+
+    .my-bio-text
+    {   padding: 30px 35px 0 45px}
+
+}// END PHABLET
+
+
+
+
+
+@include tablet{
+// ====================================== 640+ ====
+
+}// END TABLET
+
+
+
+
+
+
+@include laptop{
+// ====================================== 960+ ====
+
+    .my-headshot
+    {   width: 35%;
+    }
+
+    .my-bio-text
+    {   width: 65%;
+    }
+
+    .my-headshot, .my-bio-text
+    {   float: left;
+    }
+
+    .my-headshot img
+    {   width: 100%;
+        margin: auto;
+    }
+
+    .my-bio-text
+    {   padding: 0 20px 0 40px}
+
+}// END LAPTOP

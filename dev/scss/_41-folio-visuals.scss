@@ -1,0 +1,52 @@
+
+
+// THIS CSS ADDRESSES PROJECT IMAGE LAYOUT.
+
+// mobile
+// ===============================================
+
+.folio-visuals-group
+{   width: 97%;
+    margin: 0 auto 120px;
+}
+
+.folio-visuals-item
+{   width: 95%;
+    margin: 0 auto 55px;
+}
+
+.folio-visuals-item h4
+{   margin-top: 15px;
+}
+
+// END MOBILE
+
+
+
+
+@include tablet{
+// ====================================== 640+ ====
+
+    .folio-visuals-group
+    {   width: 97%;
+        display: flex;
+        margin: 0 auto 80px;
+    }
+
+    .folio-visuals-item
+    {   width: 95%;
+        margin: 0 10px 55px;
+    }
+
+} // END TABLET
+
+
+
+@include laptop{
+// ====================================== 960+ ====
+
+    .folio-visuals-group
+    {   width: 75%;
+    }
+
+} // END LAPTOP
